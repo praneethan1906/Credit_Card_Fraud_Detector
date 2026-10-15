@@ -1,0 +1,45 @@
+'''using gitignore I can stop some uneccessary 
+files or large datasets from uploaded in github'''
+
+#dataset
+
+data/
+
+'''removes the dataset from being uploaded'''
+
+
+#python cache
+
+__pycache__?
+*.py[cod]
+
+'''remove temperorily compiled python files'''
+
+
+#virtual environment
+
+.venv/
+venv/
+
+
+'''it contains python interpreter environment and installed packages 
+but it is enough to add the requirement file'''
+
+
+#Jupiter temporary files
+
+.ipynp_checkpoints/
+
+'''it contains the temperorily created jupiter checkpoit files'''
+
+#IDE setting
+
+.vscode/
+
+'''it contains workspace setting specific to my vscode'''
+
+# Environment variables and secrets
+.env
+
+'''Ignores the files that contain API keya,pass words, and other credenitals'''
+
